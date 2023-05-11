@@ -2,10 +2,13 @@
     /* CHANGE THESE VALUES FOR COLOR */
     --overlay-color: rgba(68, 0, 101, 0.626);
     --text-background-color:rgba(47, 0, 118, 0.841);
+    --nav-font: "Roboto", sans-serif;
 }
+
 html::-webkit-scrollbar{
     width:0 !important
 }
+
 *{
     box-sizing: border-box;
     margin:0;
@@ -28,8 +31,32 @@ main{
 }
 header{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
+
+/* NAV LINK FORMATTING */
+nav{
+    width:100%;
+}
+nav ul{
+    display:flex;
+    list-style: none;
+    gap:4px;
+    justify-content: space-around;
+}
+
+
+nav ul a{
+    text-decoration: none;
+    padding:10px;
+    font-family: var(--nav-font);
+    font-weight:700;
+    font-size: 24px;
+    color:white;
+}
+
 
 .overlay{
     position: fixed;
@@ -65,13 +92,20 @@ header{
     color:white;
 }
 
-.textbox h1{
+.textbox ul{
+    list-style: inside;
+}
+
+.textbox ul li{
+    margin-bottom:12px;
+}
+.textbox h2{
+    font-size: 32px;
     margin-bottom:16px;
     margin-left:16px;
 }
 
 .button{
-    
     margin-bottom:40px;
     padding:20px 40px;
     background:rgb(40, 0, 173);
