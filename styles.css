@@ -1,7 +1,7 @@
 :root{
     /* CHANGE THESE VALUES FOR COLOR */
-    --overlay-color: #ff3c00;
-    --overlay-color2: #fff000;
+    --overlay-color: #be2c00;
+    --overlay-color2: #b6a900;
     --text-background-color:rgba(47, 0, 118, 0.841);
     --nav-font: "Roboto", sans-serif;
 }
