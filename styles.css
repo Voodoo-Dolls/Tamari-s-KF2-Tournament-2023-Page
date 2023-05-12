@@ -1,9 +1,9 @@
 :root{
     /* CHANGE THESE VALUES FOR COLOR */
-    --overlay-color: #be2c00;
-    --overlay-color2: #b6a900;
+    --overlay-color: #be2c00be;
+    --overlay-color2: #b6aa00b7;
     --text-background-color:rgba(47, 0, 118, 0.841);
-    --nav-font: "Roboto", sans-serif;
+    --nav-font: "Odibee Sans", sans-serif;
 }
 
 html::-webkit-scrollbar{
@@ -49,12 +49,13 @@ nav ul{
 }
 
 
+/* NAV TEXT FORMATTING */
 nav ul a{
     text-decoration: none;
     padding:10px;
     font-family: var(--nav-font);
-    font-weight:700;
-    font-size: 24px;
+    font-size: 28px;
+    
     color:white;
 }
 
@@ -63,7 +64,15 @@ nav ul a:hover{
     
 }
 
-
+.background{
+    position: fixed;
+    left:0;
+	height: 100vh;
+    width:100%;
+    height:100vh;
+    z-index: -1;
+    background-image: url(/img/background.jpg);
+}
 .overlay{
     position: fixed;
     left:0;
@@ -117,6 +126,7 @@ nav ul a:hover{
     font-weight:700;
     margin-top:40px;
     color:white;
+    
 }
 
 .textbox ul{
