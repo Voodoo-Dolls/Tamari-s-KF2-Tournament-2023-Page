@@ -57,6 +57,11 @@ nav ul a{
     color:white;
 }
 
+nav ul a:hover{
+    border-bottom: 2px solid rgb(0, 200, 255);
+    
+}
+
 
 .overlay{
     position: fixed;
