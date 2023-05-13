@@ -51,18 +51,41 @@ nav ul{
 
 /* NAV TEXT FORMATTING */
 nav ul a{
+    position: relative;
     text-decoration: none;
-    padding:10px;
+    padding:4px;
     font-family: var(--nav-font);
     font-size: 28px;
-    
     color:white;
 }
 
-nav ul a:hover{
-    border-bottom: 2px solid rgb(0, 200, 255);
-    
+nav span{
+    text-shadow: 3px 3px black;
 }
+
+/* NAV HOVER ANIMATION */
+nav ul a::after{
+    position:absolute;
+    height:2px;
+    left:50%;
+    bottom:0;
+    z-index: -1;
+    transition: all 0.25s ease;
+    content:'';
+    width:0%;
+    background: linear-gradient(
+        90deg,
+        #ff3c00,
+        #f8c300
+    );
+
+}
+nav ul a:hover::after{
+    width:100%;
+    left:0;
+}
+
+
 
 .background{
     position: fixed;
