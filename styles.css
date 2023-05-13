@@ -2,6 +2,8 @@
     /* CHANGE THESE VALUES FOR COLOR */
     --overlay-color: #be2c00be;
     --overlay-color2: #b6aa00b7;
+    --heading-color: #ff3c00;
+    --heading-color2: #ffee00;
     --text-background-color:#003e8f;
     --nav-font: "Odibee Sans", sans-serif;
 }
@@ -161,11 +163,20 @@ nav ul a:hover::after{
     margin:30px 0;
 }
 
+.textbox-container .textbox:nth-child(odd) h2 {
+    color:var(--heading-color);
+}
+
+.textbox-container .textbox:nth-child(even) h2 {
+    color:var(--heading-color2);
+}
+
 .textbox{
     margin-bottom:20px;
     color:white;
     
 }
+
 .textbox h2{
     font-family: "Odibee Sans", sans-serif;
     text-shadow: 3px 3px black;
@@ -173,6 +184,7 @@ nav ul a:hover::after{
     font-size: 32px;
     margin-bottom:8px;
 }
+
 
 .textbox p, .textbox li{
     font-weight:700;
