@@ -149,7 +149,7 @@ header{
 
 .button h2{
     font-family: var(--nav-font);
-    text-shadow: 3px 3px black;
+    text-shadow: 1px 1px black;
     z-index: 2;
     transition: ease-out 0.2s;
 }
