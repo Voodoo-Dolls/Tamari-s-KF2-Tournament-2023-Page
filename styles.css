@@ -50,7 +50,7 @@ header{
 /* NAV LINK FORMATTING */
 nav{
     display: block;
-    background-color: black;
+    background:black;
     width:100%;
     top:0px;
     position: sticky;
