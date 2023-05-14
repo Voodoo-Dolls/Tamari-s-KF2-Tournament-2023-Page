@@ -236,7 +236,6 @@ nav ul a:hover::after{
 
 .text-background{
     width:100%;
-    padding:44px 60px;
     background: var(--text-background-color);
     border-radius: 5px;
 }
@@ -253,13 +252,13 @@ nav ul a:hover::after{
 }
 
 .textbox{
+    padding:44px 60px;
     margin-bottom:20px;
     color:white;
     
-    
 }
 
-.textbox h2{
+.textbox h2, .media-container .text h2{
     font-family: "Odibee Sans", sans-serif;
     text-shadow: 3px 3px black;
     text-transform: uppercase;
@@ -295,9 +294,12 @@ br{
 
 .media-container .text{
     color:white;
-    width:50%;
+    width:100%;
 }
 
+.media-container .text h2, .media-container .text p{
+    margin:0 44px;
+}
 
 /* FOOTER-------------------------------------------------------------------- */
 
@@ -313,4 +315,17 @@ footer{
 }
 footer img{
     width:30px;
+}
+
+#test{
+    width: fit-content;
+    height:50%;
+    margin:4px;
+    float: right;
+    top:40%;
+    right:40%;
+
+    shape-outside: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    shape-margin: 5rem;
+
 }
