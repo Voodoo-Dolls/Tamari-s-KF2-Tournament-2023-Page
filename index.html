@@ -15,21 +15,21 @@
     <link rel="stylesheet" href="styles.css">
 
 </head>
-<body onScroll="myFunction()">
+<body>
     <header>
         <img class="logo" src="img/logo.png" alt="Summer Showdown Logo">
     </header>
     <nav>
         <ul>
-            <li><a href="#"><span id="header1">HOME</span></a></li>
-            <li><a href="#about"><span id="header2">ABOUT</span></a></li>
-            <li><a href="#objective"><span id="header3">OBJECTIVE</span></a></li>
-            <li><a href="#features"><span id="header4">FEATURES</span></a></li>
-            <li><a href="#register"><span id="header5">REGISTER NOW!</span></a></li>
+            <li><a href="/index.html"><span>HOME</span></a></li>
+            <li><a href="/Pages/tournament.html"><span id="current_page">TOURNAMENT INFO</span></a></li>
+            <li><a href="/Pages/community.html"><span>OUR COMMUNITY</span></a></li>
+            <li><a href="/Pages/cd.html"><span>ABOUT CD</span></a></li>
+            <li><a href="https://forms.gle/R54ZhiQojCvcvmW66" target="_blank"><span id="header5">REGISTER NOW!</span></a></li>
         </ul>
     </nav>
-    <div class="background"></div>
-    <div class="overlay"></div>
+    <div id="background"></div>
+    <div id="overlay"></div>
     <main>
         <div class="textbox-container text-background">
             <div id="welcome" class="introduction textbox">
@@ -77,12 +77,9 @@
                 
             </div>
         </div>
-        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/guHbqWlKhSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-        <a class="button"href="https://forms.gle/R54ZhiQojCvcvmW66" target="_blank"="register">Register Now!</a>
     </main>
 </body>
 
-<script src="script.js" defer>
-</script>
+<script src="/script.js"></script>
+
 </html>
