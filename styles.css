@@ -323,7 +323,14 @@ br{
     margin: 8px;
 }
 
-
+.discord{
+    display:flex;
+    align-items: center;
+    gap:20px;
+}
+.discord img{
+    width:48px;
+}
 .social {
     display:flex;
     gap:30px;
