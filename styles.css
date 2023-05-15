@@ -160,7 +160,14 @@ header{
     border-bottom:black 2px solid;
 }
 
-
+/* SLOTS-------------------------------------------------- */
+.slots{
+    display:flex;
+    justify-content: space-evenly;
+    font-family: var(--nav-font);
+    color:white;
+    font-size:28px;
+}
 /* NAV------------------------------------------------------------------------------- */
 
 /* NAV LINK FORMATTING */
