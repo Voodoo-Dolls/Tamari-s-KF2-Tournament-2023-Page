@@ -295,20 +295,42 @@ br{
 }
 
 /* MEDIA CONTAINER----------------------------------------------------------- */
-
-.media-container{
+.players{
     display:flex;
+    flex-wrap:wrap;
+    gap:30px;
+    justify-content: center;
+}
+.media-container{
+    width: fit-content;
+    height:196px;
+    display:flex;
+    border-radius: 3px;
+    border:2px solid;
 }
 
-.media-container .text{
+.media img{
+    border-radius: 3px;
+}
+
+.media-container .text h2{
+    text-align: center;
     color:white;
-    width:100%;
+    margin: 8px;
+}
+.social {
+    display:flex;
+    gap:30px;
+    margin:20px;
 }
 
-.media-container .text h2, .media-container .text p{
-    margin:0 44px;
+.social img{
+    width:32px;
 }
-
+.tamari{
+    background: #8842bd;
+    border-color: #b942bd;
+}
 /* FOOTER-------------------------------------------------------------------- */
 
 footer{
@@ -325,15 +347,3 @@ footer img{
     width:30px;
 }
 
-#test{
-    width: fit-content;
-    height:50%;
-    margin:4px;
-    float: right;
-    top:40%;
-    right:40%;
-
-    shape-outside: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
-    shape-margin: 5rem;
-
-}
