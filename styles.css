@@ -1,4 +1,9 @@
 :root{
+    /* CHANGE THESE VALUES FOR THE SIGN UP THING */
+
+    /* STRING VALUES ONLY */
+    --sign-up-quantity:"0";
+    --status:"LIVE!";
     /* CHANGE THESE VALUES FOR COLOR */
     --overlay-color: #be2c00be;
     --overlay-color2: #b6aa00b7;
@@ -168,6 +173,14 @@ header{
     color:white;
     font-size:28px;
 }
+
+.slots .left::after{
+    content:var(--status)
+}
+.slots .middle::after{
+    content:var(--sign-up-quantity);
+}
+
 /* NAV------------------------------------------------------------------------------- */
 
 /* NAV LINK FORMATTING */
