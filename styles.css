@@ -2,8 +2,8 @@
     /* CHANGE THESE VALUES FOR THE SIGN UP THING */
 
     /* STRING VALUES ONLY */
-    --sign-up-quantity:"0";
-    --status:"LIVE!";
+    --status:"SIGN UP STATUS LIVE!";
+    --sign-up-quantity:"SIGN UPS:0/36";
     /* CHANGE THESE VALUES FOR COLOR */
     --overlay-color: #be2c00be;
     --overlay-color2: #b6aa00b7;
