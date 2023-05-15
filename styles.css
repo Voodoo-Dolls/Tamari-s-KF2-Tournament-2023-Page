@@ -235,6 +235,7 @@ nav ul a:hover::after{
 
 
 .text-background{
+    padding:44px 60px;
     width:100%;
     background: var(--text-background-color);
     border-radius: 5px;
@@ -252,8 +253,7 @@ nav ul a:hover::after{
 }
 
 .textbox{
-    padding:44px 60px;
-    margin-bottom:20px;
+    margin-bottom:40px;
     color:white;
     
 }
