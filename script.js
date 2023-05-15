@@ -68,7 +68,7 @@ if (mins < 10) mins = '0'+mins;
 countdown1 = (countdown1 - mins) / 60;
 var hours = countdown1 % 24;
 var days = (countdown1 - hours) / 24;
-document.getElementById(tzpst).innerHTML = days + " day" + (days == 1 ? '' : 's') + ' + ' +hours+ 'h : ' +mins+ 'm : '+secs+'s';
+document.getElementById(tzpst).innerHTML = "0" + days +":" + hours+ ':' +mins+ ':'+secs;
 setTimeout('displayTZCountDown('+(countdown-1)+',\''+tzpst+'\');',999);
 }
 }
