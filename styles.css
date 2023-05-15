@@ -314,10 +314,11 @@ br{
 }
 
 .media-container .text h2{
-    text-align: center;
     color:white;
     margin: 8px;
 }
+
+
 .social {
     display:flex;
     gap:30px;
