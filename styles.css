@@ -296,13 +296,16 @@ br{
 
 /* MEDIA CONTAINER----------------------------------------------------------- */
 .players{
+    margin:0 -30px 40px -30px;
+    width:960px;
     display:flex;
     flex-wrap:wrap;
-    gap:30px;
+    gap:20px;
     justify-content: center;
 }
 .media-container{
-    width: fit-content;
+
+    width: 400px;
     height:196px;
     display:flex;
     border-radius: 3px;
@@ -310,10 +313,12 @@ br{
 }
 
 .media img{
+    width:192px;
     border-radius: 3px;
 }
 
 .media-container .text h2{
+    font-size: 24px;
     color:white;
     margin: 8px;
 }
@@ -322,7 +327,9 @@ br{
 .social {
     display:flex;
     gap:30px;
-    margin:20px;
+    margin-left:10px;
+    margin-right:20px;
+    
 }
 
 .social img{
@@ -331,6 +338,15 @@ br{
 .tamari{
     background: #8842bd;
     border-color: #b942bd;
+}
+
+.ethereal{
+    background: #3a1d5e;
+    border-color: #C0C0C0;
+}
+.illeth{
+    background:#4d050e;
+    border-color:#1c1c1c;
 }
 /* FOOTER-------------------------------------------------------------------- */
 
