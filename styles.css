@@ -268,10 +268,9 @@ nav ul a:hover::after{
 
 .textbox a{
     color:#ffa500;
-    font-family: "Roboto",sans-serif;
 }
 
-.textbox p, .textbox li, textbox a{
+.textbox p, .textbox li{
     font-weight:700;
     font-size: 18px;
     letter-spacing: 1px;
