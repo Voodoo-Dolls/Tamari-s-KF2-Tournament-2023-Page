@@ -273,6 +273,13 @@ nav ul a:hover::after{
     letter-spacing: 1px;
 }
 
+.textbox h3{
+    font-family: "Odibee Sans", sans-serif;
+    text-shadow: 3px 3px black;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: var(--heading-color2);
+}
 .textbox ul{
     list-style: inside;
 }
