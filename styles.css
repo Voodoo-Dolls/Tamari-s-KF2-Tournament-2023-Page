@@ -161,8 +161,7 @@ header{
 }
 
 .button .image-overlay:hover ~ h2{
-    color:red;
-    border-bottom:black 2px solid;
+    color:#ffa500;
 }
 
 /* SLOTS-------------------------------------------------- */
