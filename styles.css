@@ -277,6 +277,7 @@ nav ul a:hover::after{
     font-family: "Odibee Sans", sans-serif;
     text-shadow: 3px 3px black;
     text-transform: uppercase;
+    letter-spacing: 1px;
     font-size: 24px;
     color: var(--heading-color2);
 }
