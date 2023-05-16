@@ -41,7 +41,7 @@
                 </a>
                 <a href="/Pages/cd.html">
                     <div class="button">
-                        <img src="https://placekitten.com/g/300/300" alt="placeholder">
+                        <img src="/img/cd_logo.png" alt="placeholder">
                         <div class="image-overlay"></div>
                         <h2>ABOUT CD</h2>
                     </div>
@@ -72,7 +72,7 @@
         </footer>
 </body>
 <script>
-    ////////// CONFIGURE THE SCRIPT HERE //////////////////
+ ////////// CONFIGURE THE SCRIPT HERE //////////////////
 
 var month = '6';     //  '*' for next month, '0' for this month or 1 through 12 for the month 
 var day = '21';       //  Offset for day of month day or + day  
@@ -122,7 +122,7 @@ if (mins < 10) mins = '0'+mins;
 countdown1 = (countdown1 - mins) / 60;
 var hours = countdown1 % 24;
 var days = (countdown1 - hours) / 24;
-document.getElementById(tzpst).innerHTML = (days).toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false}) +":" + hours+ ':' +mins+ ':'+secs;
+document.getElementById(tzpst).innerHTML = (days).toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false}) +":" + (hours).toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false})+ ':' +mins+ ':'+secs;
 setTimeout('displayTZCountDown('+(countdown-1)+',\''+tzpst+'\');',999);
 }
 }
