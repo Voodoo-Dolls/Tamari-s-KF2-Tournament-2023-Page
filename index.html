@@ -34,7 +34,7 @@
                 </a>
                 <a href="/Pages/community.html">
                     <div class="button">
-                        <img src="https://placekitten.com/g/300/300" alt="placeholder">
+                        <img src="/img/community_logo.png" alt="placeholder">
                         <div class="image-overlay"></div>
                         <h2>OUR COMMUNITY </h2>
                     </div>
@@ -122,7 +122,7 @@ if (mins < 10) mins = '0'+mins;
 countdown1 = (countdown1 - mins) / 60;
 var hours = countdown1 % 24;
 var days = (countdown1 - hours) / 24;
-document.getElementById(tzpst).innerHTML = days +":" + hours+ ':' +mins+ ':'+secs;
+document.getElementById(tzpst).innerHTML = (days).toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false}) +":" + hours+ ':' +mins+ ':'+secs;
 setTimeout('displayTZCountDown('+(countdown-1)+',\''+tzpst+'\');',999);
 }
 }

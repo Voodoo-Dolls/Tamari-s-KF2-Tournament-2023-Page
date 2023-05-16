@@ -157,6 +157,7 @@ header{
 }
 
 .button img{
+    height:250px;
     border-radius: 4px;
     border:2px solid black;
     
@@ -346,6 +347,7 @@ br{
 .players{
     position: relative;
     margin:0 -60px;
+    margin-bottom:30px;
     max-width:960px;
     display:flex;
     flex-wrap:wrap;
@@ -353,14 +355,13 @@ br{
     justify-content: center;
 }
 .media-container{
+    line-height: 0;
     width: 300px;
     height:104px;
     display:flex;
+    align-items: center;
     border:2px solid;
-}
-
-.media img{
-    width:100px;
+    overflow: hidden;
 }
 
 .media-container .text{
@@ -368,6 +369,8 @@ br{
     height:100%;;
 }
 .media-container .text h2{
+    line-height: 1.6;
+    bottom:0;
     display: block;
     font-size: 25px;
     color:white;
@@ -375,36 +378,34 @@ br{
     margin-left:4px;
 }
 
-.discord{
-    display:flex;
-    align-items: center;
-    gap:20px;
+.media img{
+    width:102px;
 }
-.discord img{
-    width:48px;
-}
+
+
 .social {
-    justify-content: center;
-    width:100%;
-    height:60px;
     display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:65px;
+    overflow: hidden;
 
 }
 
 .social a{
-    position: relative;
     display:flex;
     justify-content: center;
     height:100%;
 }
 
 .social img{
-    width:40px;
+    width:36px;
 }
 
 .youtube{
     flex-grow:1;
-    background-color:#FF0000;
+    background-color:#d20000;
 }
 .twitch{
     flex-grow:1;
@@ -425,8 +426,22 @@ br{
 }
 
 .kusu{
-    background:#00c3ff;
-    border-color:rgb(241, 0, 0);
+    background:linear-gradient(
+        #111cf2,
+        black 40%
+         );
+    border-color:rgb(0, 195, 255);
+}
+
+
+
+.discord{
+    display:flex;
+    align-items: center;
+    gap:20px;
+}
+.discord img{
+    width:48px;
 }
 /* FOOTER-------------------------------------------------------------------- */
 
