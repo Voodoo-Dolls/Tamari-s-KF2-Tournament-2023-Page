@@ -3,7 +3,7 @@
 
     /* STRING VALUES ONLY */
     --status:"SIGN UPS ARE LIVE!";
-    --sign-up-quantity:"SIGN UPS:  0/36";
+    --sign-up-quantity:"SIGN UPS:  0/42";
     /* CHANGE THESE VALUES FOR COLOR */
     --overlay-color: #be2c00be;
     --overlay-color2: #b6aa00b7;
@@ -210,6 +210,7 @@ header{
         margin-top:16px;
         font-size:24px;
         justify-content: center;
+        gap:30px;
     }
     .slots p{
         text-align: center;
