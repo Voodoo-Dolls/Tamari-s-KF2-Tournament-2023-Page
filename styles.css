@@ -26,7 +26,7 @@ html::-webkit-scrollbar{
 body{
     width:960px;
     margin:0 auto;
-    text-overflow: ellipsis;
+    
 }
 html{
     font-family: 'Roboto', sans-serif;
@@ -48,6 +48,9 @@ header{
     overflow: visible;
 }
 
+a{
+    text-overflow: ellipsis;
+}
 .logo{
     width:450px;
 }
@@ -509,7 +512,7 @@ br{
     border-color:rgb(0, 195, 255);
 }
 
-.rey{
+.rey,.kman{
     background:rgb(255, 157, 0);
     border-color:rgb(255, 238, 0);
 }
