@@ -26,6 +26,7 @@ html::-webkit-scrollbar{
 body{
     width:960px;
     margin:0 auto;
+    text-overflow: ellipsis;
 }
 html{
     font-family: 'Roboto', sans-serif;
