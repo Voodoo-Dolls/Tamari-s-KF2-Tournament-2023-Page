@@ -481,6 +481,8 @@ br{
     flex-grow:1;
     background-color: #6441a5;
 }
+
+/* PROFILE COLORS------------------------------------------ */
 .tamari{
     background: #8842bd;
     border-color: #b942bd;
@@ -494,7 +496,10 @@ br{
     background:#4d050e;
     border-color:#1c1c1c;
 }
-
+.fat{
+    background:#02a37d;
+    border-color:white;
+}
 .kusu{
     background:linear-gradient(
         #111cf2,
@@ -510,6 +515,26 @@ br{
 
 .leg{
     background: rgb(0, 5, 155);
+    border-color:#006afd
+}
+.monkey{
+    background:#001d3f;
+    border-color:#047ebd;
+}
+
+.vaan{
+    background:#800000;
+    border-color:white;
+}
+
+.elmo{
+    background: rgb(111, 28, 28);
+    border-color:#800000;
+}
+
+.asapi{
+    background: #006afd;
+    border-color: rgb(0, 251, 255);
 }
 .discord{
     display:flex;
