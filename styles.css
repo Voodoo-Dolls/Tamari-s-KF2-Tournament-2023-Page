@@ -48,9 +48,6 @@ header{
     overflow: visible;
 }
 
-a{
-    overflow: hidden;
-}
 .logo{
     width:450px;
 }
@@ -340,6 +337,7 @@ nav ul a:hover::after{
     width:100%;
     background: var(--text-background-color);
     border-radius: 5px;
+    overflow: hidden;
 }
 .textbox-container{
     margin:30px 0;
