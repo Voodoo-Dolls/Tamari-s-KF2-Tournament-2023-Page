@@ -1,144 +1,152 @@
 <!DOCTYPE html>
-<html lang=en>
-<head>
-<meta charset=UTF-8>
-<meta http-equiv=X-UA-Compatible content="IE=edge">
-<meta name=viewport content="width=device-width, initial-scale=1.0">
-<title>Summer Showdown Tournament</title>
-<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
-<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
-<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
-<link rel=manifest href=/site.webmanifest>
-<link rel=preconnect href=https://fonts.googleapis.com>
-<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Roboto:wght@700&display=swap" rel=stylesheet>
-<link rel=stylesheet href=/styles.css>
-</head>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Summer Showdown Tournament</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Roboto:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/styles.css">
+    </head>
 <body>
-<header>
-<img class=logo src=/img/logo.webp alt="Summer Showdown Logo">
-</header>
-<nav>
-<ul>
-<li><a href=/index.html><span>HOME</span></a></li>
-<li><a href=/Pages/tournament.html><span>TOURNAMENT INFO</span></a></li>
-<li><a href=/Pages/community.html><span id=current_page>OUR COMMUNITY</span></a></li>
-<li><a href=/Pages/cd.html><span>ABOUT CD</span></a></li>
-<li><a href=https://forms.gle/R54ZhiQojCvcvmW66 target=_blank><span id=header5>SIGN UP NOW!</span></a></li>
-</ul>
-<div class=slots>
-<p><span class=left></span></p>
-<p><span class=middle></span></p>
-<p>SIGN UPS CLOSE IN: <span id=tzpst></span></p>
-</div>
-</nav>
-<div id=background></div>
-<div id=overlay></div>
-<main>
-<div class="textbox-container text-background">
-<div class=textbox>
-<h2>OUR COMMUNITY</h2>
-<p>Tamari's KF2 is the result of the combined efforts of Tamari & Forrest Mark X to bring a modded experience to KF2 that refreshes and enhances the game through quality-of-life features and changes, new gamemodes, and a chill and close-knit environment. We're a multi-continental KF2 community with over 25 servers supporting the NA and EU regions, and now also Southeast Asia / Australia as well!
-</p>
-</div>
-<div class=textbox>
-<h2>OBJECTIVE</h2>
-<p>Primarily to introduce people to higher levels of play (Controlled Difficulty), but the main objective above all else is FUN.
-</p>
-<p>We don't like drama and try our best to maintain a stress-free environment that feels more like a small gaming family than a group of friends playing games together.
-</p><br>
-<p>Like playing standard Endless and Survival? We have something for that.
-</p>
-<p>Like playing at difficulties harder than HoE? We have something for that.
-</p>
-<p>Like playing custom, wacky, new modes? We have something for that as well.
-</p>
-<p>There is something for everyone here and players of all types are welcome!
-</p><br>
-<p>These are not your typical modded servers. The mods in use aim to enhance the vanilla experience as opposed to drastically changing it. As such, you can expect to find features that remedy some of the more clunky aspects of vanilla KF2 gameplay as well as features that allow players to customize their experience(s).
-</p>
-</div>
-<div class=textbox>
-<h2>FEATURES</h2>
-<h3>Quality of Life Additions
-</h3>
-<p>Weapons never despawn, drop all weapons when you die, view dropped weapon information (owner, ammunition, etc), see holstered weapons on players' backs/hips, see player weapons in First Person Spectator Mode, lock dropped weapons so that only the owner can pick them up, ping zeds/objects/items, ZED Time extension counter, improved Medic Buff HUD, see all teammates' health directly on the HUD, and many many more..
-</p>
-<p>Some mechanics and perks have been reworked to be more balanced as well while still remaining in-line with the vanilla experience.
-</p><br>
-<h3>Multi-continental</h3>
-<p>Just because you're not from North America doesn't mean you can't play here.
-</p>
-<p>We also have multiple servers in the Central European (EU) and Southeast Asian (SEA) regions!
-</p>
-<p>Someday, this support will extend to South America (SA) as well.
-</p><br>
-<h3>Custom Gamemodes
-</h3>
-<p>Dozens of homebrew custom modes such as Arms Race, ZED Wars, King of the Hill, True Endless, Boss Rush, Time Attack, and many more that add some new flavor to the game!
-</p><br>
-<h3>A Friendly & Fulfilling Controlled Difficulty Experience
-</h3>
-<p>Tamari's KF2 is the premier place to play CD in the North American (NA) region. We also have servers located in Europe and Asia for players in those regions as well!
-</p>
-<p>Never heard of CD? That's okay! New players are always welcome and we're always looking for new talent to join our ranks! Just ask us and we'll show you the ropes.
-</p><br>
-<h3>Custom Maps
-</h3>
-<p>There are over 80 custom maps installed on the servers and ready for you to play!
-</p>
-<p>A lot of maps have also been reworked to include quality of life changes and/or balance tweaks.
-</p><br>
-<h3>Custom Server Achievements
-</h3>
-<p>There are 187 custom Server Achievements that are available for you to earn, all spanning a variety of categories such as Maps, Collectibles, and even Hidden achievements!
-</p>
-<p>Achievements are synced to an external database so that your progress persists across all of our servers!
-</p><br>
-<h3>Additional Prestige Levels
-</h3>
-<p>25 additional "Overload" Prestige Levels accessible after reaching the maximum vanilla prestige level. While no statistical benefits are offered, you can earn other rewards including a new Perk badge, and even some Achievements!
-</p><br>
-<h3>Discord-to-Server Interaction
-</h3>
-<p>Users can chat between the KF2 servers and Discord and view a Live Information Feed of the server's current state from Discord, all powered by a custom bot built by Tamari.
-</p><br>
-<h3>Improved User Interface
-</h3>
-<p>Our servers feature a customized Lobby Menu, Chat Box, Console, and Scoreboard with support for Emoji, color-coded text, and Icons!
-</p><br>
-<h3>Client Customization
-</h3>
-<p>Players can fully customize their experience through a built-in settings menu.
-</p>
-<p>Tweak weapon glow colors, HUD colors, weapon FOV, toggle the ZED Time black/white filter, show Medic Buff timers on teammates, and dozens of other clientside options!
-</p><br>
-<h3>Cross Server Chat
-</h3>
-<p>Players can chat between servers!
-</p><br>
-<h3>Global Statistics
-</h3>
-<p>Our servers track Global Statistics for all players. Have you ever wanted to know how many kills you've gotten, or how much damage you've dealt over your total playtime on the servers? All of that is possible and more!
-</p><br>
-</div>
-<div class=textbox>
-<h2>JOIN US</h2>
-<div class=discord>
-<a href=https://discord.gg/tamari target=_blank><img src=/img/discord-icon-svgrepo-com.svg alt></a>
-<a href=https://discord.gg/tamari target=_blank>
-<p>https://discord.gg/tamari</p>
-</a>
-</div>
-</div>
-</div>
-</main>
-<footer>
-<p>Website Created by Voodoo Doll</p>
-<a href="https://github.com/Voodoo-Dolls?tab=repositories" target=_blank>
-<img src=/img/github-mark-white.svg alt>
-</a>
-</footer>
+    <header>
+        <img class="logo" src="/img/logo.webp" alt="Summer Showdown Logo">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/index.html"><span>HOME</span></a></li>
+            <li><a href="/Pages/tournament.html"><span >TOURNAMENT INFO</span></a></li>
+            <li><a href="/Pages/community.html"><span id="current_page">OUR COMMUNITY</span></a></li>
+            <li><a href="/Pages/cd.html"><span>ABOUT CD</span></a></li>
+            <li><a href="https://forms.gle/R54ZhiQojCvcvmW66" target="_blank"><span id="header5">SIGN UP NOW!</span></a></li>
+        </ul>
+        <div class="slots">
+            <p><span class="left"></span></p>
+            <p><span class="middle"></span></p>
+            <p>SIGN UPS CLOSE IN: <span id="tzpst"></span></p>
+        </div>
+    </nav>
+    <div id="background"></div>
+    <div id="overlay"></div>
+    <main>
+        <div class="textbox-container text-background">
+            <div class="textbox">
+                <h2>OUR COMMUNITY</h2>
+                <p>Tamari's KF2 is the result of the combined efforts of Tamari & Forrest Mark X to bring a modded experience to KF2 that refreshes and enhances the game through quality-of-life features and changes, new gamemodes, and a chill and close-knit environment. We're a multi-continental KF2 community with over 25 servers supporting the NA and EU regions, and now also Southeast Asia / Australia as well!
+                </p>
+            </div>
+            <div class="textbox">
+                <h2>OBJECTIVE</h2>
+                <p>Primarily to introduce people to higher levels of play (Controlled Difficulty), but the main objective above all else is FUN.
+                </p>
+                <p>We don't like drama and try our best to maintain a stress-free environment that feels more like a small gaming family than a group of friends playing games together.
+                </p><br>
+                <p>Like playing standard Endless and Survival? We have something for that.
+                </p>
+                <p>Like playing at difficulties harder than HoE? We have something for that.
+                </p>
+                <p>Like playing custom, wacky, new modes? We have something for that as well.
+                </p>
+                <p>There is something for everyone here and players of all types are welcome! 
+                </p><br>
+                <p>These are not your typical modded servers. The mods in use aim to enhance the vanilla experience as opposed to drastically changing it. As such, you can expect to find features that remedy some of the more clunky aspects of vanilla KF2 gameplay as well as features that allow players to customize their experience(s).
+                </p>
+            </div>
+            <div class="textbox">
+                <h2>FEATURES</h2>
+                <h3>Quality of Life Additions
+                </h3>
+                <p>Weapons never despawn, drop all weapons when you die, view dropped weapon information (owner, ammunition, etc), see holstered weapons on players' backs/hips, see player weapons in First Person Spectator Mode, lock dropped weapons so that only the owner can pick them up, ping zeds/objects/items, ZED Time extension counter, improved Medic Buff HUD, see all teammates' health directly on the HUD, and many many more..
+                </p>
+                <p>Some mechanics and perks have been reworked to be more balanced as well while still remaining in-line with the vanilla experience.
+                </p><br>
+
+                <h3>Multi-continental</h3>
+                <p>Just because you're not from North America doesn't mean you can't play here.
+                </p>
+                <p>We also have multiple servers in the Central European (EU) and Southeast Asian (SEA) regions!
+                </p>
+                <p>Someday, this support will extend to South America (SA) as well.
+                </p><br>
+                <h3>Custom Gamemodes
+                </h3>
+                <p>Dozens of homebrew custom modes such as Arms Race, ZED Wars, King of the Hill, True Endless, Boss Rush, Time Attack, and many more that add some new flavor to the game!
+                </p><br>
+                <h3>A Friendly & Fulfilling Controlled Difficulty Experience
+                </h3>
+                <p>Tamari's KF2 is the premier place to play CD in the North American (NA) region. We also have servers located in Europe and Asia for players in those regions as well!
+                </p>
+                <p>Never heard of CD? That's okay! New players are always welcome and we're always looking for new talent to join our ranks! Just ask us and we'll show you the ropes.
+                </p><br>
+
+                <h3>Custom Maps
+                </h3>
+                <p>There are over 80 custom maps installed on the servers and ready for you to play!
+                </p>
+                <p>A lot of maps have also been reworked to include quality of life changes and/or balance tweaks.
+                </p><br>
+
+                <h3>Custom Server Achievements
+                </h3>
+                <p>There are 187 custom Server Achievements that are available for you to earn, all spanning a variety of categories such as Maps, Collectibles, and even Hidden achievements!
+                </p>
+                <p>Achievements are synced to an external database so that your progress persists across all of our servers!
+                </p><br>
+                <h3>Additional Prestige Levels
+                </h3>
+                <p>25 additional "Overload" Prestige Levels accessible after reaching the maximum vanilla prestige level. While no statistical benefits are offered, you can earn other rewards including a new Perk badge, and even some Achievements!
+                </p><br>
+                <h3>Discord-to-Server Interaction
+                </h3>
+                <p>Users can chat between the KF2 servers and Discord and view a Live Information Feed of the server's current state from Discord, all powered by a custom bot built by Tamari.
+                </p><br>
+                <h3>Improved User Interface
+                </h3>
+                <p>Our servers feature a customized Lobby Menu, Chat Box, Console, and Scoreboard with support for Emoji, color-coded text, and Icons!
+                </p><br>
+                <h3>Client Customization
+                </h3>
+                <p>Players can fully customize their experience through a built-in settings menu.
+                </p>
+                <p>Tweak weapon glow colors, HUD colors, weapon FOV, toggle the ZED Time black/white filter, show Medic Buff timers on teammates, and dozens of other clientside options!
+                </p><br>
+                <h3>Cross Server Chat
+                </h3>
+                <p>Players can chat between servers!
+                </p><br>
+                <h3>Global Statistics
+                </h3>
+                <p>Our servers track Global Statistics for all players. Have you ever wanted to know how many kills you've gotten, or how much damage you've dealt over your total playtime on the servers? All of that is possible and more!
+                </p><br>
+
+            </div>
+            <div class="textbox">
+                <h2>JOIN US</h2>
+                <div class="discord">
+                    <a href="https://discord.gg/tamari" target="_blank"><img src="/img/discord-icon-svgrepo-com.svg" alt=""></a>
+                    <a href="https://discord.gg/tamari" target="_blank">
+                        <p>https://discord.gg/tamari</p>
+                    </a>
+                </div>
+            </div>
+            
+
+        </div>
+    </main>
+    <footer>
+        <p>Website Created by Voodoo Doll</p>
+        <a href="https://github.com/Voodoo-Dolls?tab=repositories" target="_blank">
+            <img src="/img/github-mark-white.svg" alt="">
+        </a>
+    </footer>
 </body>
-<script src=/script.js></script>
+
+<script src="/script.js"></script>
+
 </html>
