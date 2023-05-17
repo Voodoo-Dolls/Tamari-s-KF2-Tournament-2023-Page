@@ -49,7 +49,7 @@ header{
 }
 
 a{
-    text-overflow: ellipsis;
+    overflow: hidden;
 }
 .logo{
     width:450px;
