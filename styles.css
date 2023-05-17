@@ -106,8 +106,14 @@ header{
     animation: gradient 15s ease infinite;
 }
 
+
 /* MOBILE */
 @media only screen and (max-width: 860px){
+    iframe{
+
+        position: relative;
+        width:100%;
+    }
 }
 
 
