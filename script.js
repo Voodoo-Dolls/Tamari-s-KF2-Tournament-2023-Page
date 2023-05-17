@@ -1,8 +1,8 @@
 var current = document.getElementById("current_page");
 var background = document.getElementById("background");
-var image1 = "url(/img/tournament_bg.png)";
-var image2 = "url(/img/community_bg.png)";
-var image3 = "url(/img/cd_bg.png)";
+var image1 = "url(/img/tournament_bg.webp)";
+var image2 = "url(/img/community_bg.webp)";
+var image3 = "url(/img/cd_bg.webp)";
 
 
 const background_images ={
