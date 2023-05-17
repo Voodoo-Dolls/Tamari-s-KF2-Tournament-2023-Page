@@ -510,9 +510,13 @@ br{
     border-color:rgb(0, 195, 255);
 }
 
-.rey,.kman{
+.rey{
     background:rgb(255, 157, 0);
     border-color:rgb(255, 238, 0);
+}
+.kman{
+    background:linear-gradient( 90deg, #ffef00, #0c7d97 );
+    border-color:rgb(255, 203, 0);
 }
 
 .leg{
