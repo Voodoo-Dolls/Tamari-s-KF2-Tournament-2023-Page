@@ -13,7 +13,7 @@ const background_images ={
 
 
 
-background.style.backgroundImage= background_images[current.innerHTML];
+background.style.backgroundImage = background_images[current.innerHTML];
 
 
 

@@ -26,12 +26,12 @@ html::-webkit-scrollbar{
 body{
     width:960px;
     margin:0 auto;
-    
 }
 html{
     font-family: 'Roboto', sans-serif;
     scrollbar-width: none;
     line-height:1.6;
+    height: 100vh;
 }
 
 main{
@@ -108,11 +108,10 @@ header{
 
 /* MOBILE */
 @media only screen and (max-width: 860px){
-    #background{
-        height:0;
-    }
-
 }
+
+
+
 
 @keyframes gradient {
     0% {
@@ -208,9 +207,9 @@ header{
 @media only screen and (max-width: 700px){
     .slots{
         margin-top:16px;
-        font-size:24px;
+        font-size:20px;
         justify-content: center;
-        gap:30px;
+        gap:20px;
     }
     .slots p{
         text-align: center;
