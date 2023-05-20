@@ -542,6 +542,11 @@ br{
     background: #006afd;
     border-color: rgb(0, 251, 255);
 }
+
+.code{
+    background:#026440;
+    border-color:yellowgreen;
+}
 .discord{
     display:flex;
     align-items: center;
