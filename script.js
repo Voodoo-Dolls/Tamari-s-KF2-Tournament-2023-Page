@@ -20,8 +20,8 @@ background.style.backgroundImage = background_images[current.innerHTML];
 
 ////////// CONFIGURE THE SCRIPT HERE //////////////////
 
-var month = '6';     //  '*' for next month, '0' for this month or 1 through 12 for the month 
-var day = '21';       //  Offset for day of month day or + day  
+var month = '5';     //  '*' for next month, '0' for this month or 1 through 12 for the month 
+var day = '53';       //  Offset for day of month day or + day  
 var hour = 0;        //  0 through 23 for the hours of the day
 var tz = -8;         //  Offset for your timezone in hours from UTC
 var lab = 'tzpst';    //  The id of the page entry where the timezone countdown is to show. For example on this page, <span id="tzpst"></span>
