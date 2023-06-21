@@ -59,7 +59,7 @@ return Math.floor(diffDate.valueOf()/1000);
 }
 function displayTZCountDown(countdown,tzpst) 
 {
-if (countdown < 0) document.getElementById(tzpst).innerHTML = "Sorry, you are too late."; 
+if (countdown < 0) document.getElementById(tzpst).innerHTML = ""; 
 else {var secs = countdown % 60; 
 if (secs < 10) secs = '0'+secs;
 var countdown1 = (countdown - secs) / 60;
